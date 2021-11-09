@@ -45,3 +45,32 @@ body {
     border: 2px solid #8FC93A;
     background-color: #8FC93A;
 }
+@media (max-width: 600px) {
+    .calculator-mortage-container{
+        width: 90%;
+        padding: 20px;
+        border: 2px solid #e4cc37;
+        border-radius: 25px;
+    }
+    .price-container input{
+        font-size: 0.9em;
+        color: #8FC93A;
+        border: 2px solid white;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .numero-cuotas-container input {
+        font-size: 0.8em;
+        width: 30%;
+        color: #0072BB;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+    .tipo-interes-container input {
+        font-size: 0.9em;
+        color: #1E91D6;
+        width: 20%;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+  }
