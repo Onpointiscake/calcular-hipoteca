@@ -1,0 +1,47 @@
+/*
+E18335 Orange, E4CC37 Yellow, 8FC93A Green, 0072BB Dark Blue, 1E91D6 Light Blue
+*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+body {
+    background-color: #E18335;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.4em;
+}
+.calculator-mortage-container{
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #e4cc37;
+    border-radius: 25px;
+}
+.price-container input{
+    font-size: 1.3em;
+    color: #8FC93A;
+    border: 2px solid white;
+    width: 30%;
+    border-radius: 10px;
+}
+.numero-cuotas-container input {
+    font-size: 1.1em;
+    width: 15%;
+    color: #0072BB;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.tipo-interes-container input {
+    font-size: 1.3em;
+    color: #1E91D6;
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.calcular-boton-container{
+    margin-top: 20px;
+}
+.calcular-boton-container button{
+    font-size: 1em;
+    padding:15px 25px 15px 25px;
+    border-radius: 15px;
+    border: 2px solid #8FC93A;
+    background-color: #8FC93A;
+}
